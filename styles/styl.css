@@ -321,16 +321,6 @@ html, body {
   .top a {
     display: none; } }
 
-#home {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  width: 40%;
-  height: 100%;
-  background-color: #FCFFEC;
-  clip-path: polygon(0 0, 100% 0, 60% 100%, 0 100%); }
-
 .wrapper {
   position: relative;
   width: 100%;
@@ -338,15 +328,11 @@ html, body {
   top: 0;
   left: 0; }
 
-@media only screen and (max-width: 600px) {
-  #home {
-    width: 70%; } }
-
 .top {
   position: fixed;
   height: 40px;
   width: 100%;
-  background-color: #FFE5D8;
+  background-color: #fce5fd;
   display: flex;
   justify-content: center;
   z-index: 100; }

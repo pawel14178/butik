@@ -1,14 +1,4 @@
-//Kolo w tle na stronie głównej
-#home{
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    width: 40%;
-    height: 100%;
-    background-color: #FCFFEC;
-    clip-path: polygon(0 0, 100% 0, 60% 100%, 0 100%);
-}
+
 
 .wrapper{
     position: relative;
@@ -16,10 +6,4 @@
     height: 100%;
     top: 0;
     left:0;
-}
-
-@media only screen and (max-width: 600px){
-    #home{
-        width: 70%;
-    }
 }

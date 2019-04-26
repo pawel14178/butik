@@ -207,13 +207,13 @@
         padding: 10px;
         width: 100%;
         margin: auto;
-        background-color: #fefefea1;
+        background-color: #fefefec5;
     
         &_picture{
             position: relative;
             margin: 5px 2px 5px;
-            width: 75%;
-            height: 600px;
+            width: 90%;
+            height: 500px;
             background-size: cover;
             background-repeat: no-repeat;
     
@@ -224,7 +224,8 @@
         }
 
         & p{
-            padding-right: 10px;
+            text-transform: capitalize;
+            padding-right: 100px;
             text-align: right;
         }
     }

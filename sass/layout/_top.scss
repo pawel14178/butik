@@ -1,0 +1,33 @@
+.top{
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: #FFE5D8;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+
+    & button{
+        margin: 10px;
+        border: none;
+        background: none;
+        color: $color-grey;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+#basket{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+
+    & h1{
+        color: white;
+        position: absolute;
+        top: 4px;
+        left: 56%;
+        transform: translateX(-50%);
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,68 @@
+.rwd_top{
+    position: relative;
+    left: -40%;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+
+    & p{
+        margin: 7px;
+    }
+}
+
+.rwd_menu-modal{
+    background-color:   rgba(255, 229, 216, 0.995);
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    top:-40px;
+    left: -1px;
+    z-index: 20;  
+    display:none;
+    transition: .3s ease-in-out;
+    transform: scale(0);
+    transform-origin: top left;
+    overflow: hidden;
+
+    &-content{
+        height: 100%;
+        
+        & h2{
+            text-align: center;
+            margin-top: 100px;
+            font-size: 50px;
+        }
+
+        & h3{
+            text-align: center;
+            font-size: 25px;
+            margin: 20px;
+        }
+    }
+}
+.rwd_buttons_social{
+    height: 60px;
+    width: 130px;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+
+    & img{
+        width: 60px;
+        height: 60x;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .rwd_menu-modal{
+        display: block;
+    }
+
+    .rwd_menu{
+        display: block;
+    }
+
+    .top a{
+        display: none;
+    }
+}

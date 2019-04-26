@@ -1,0 +1,18 @@
+{
+    "legginsy": [
+    {
+        "name": "Tiger",
+        "description": "Czarne",
+        "size": ["M", "L"],
+        "price": 69,
+        "image": "../../image/wears/Leggins/black1.jpg"
+    },
+    {
+        "name": "Lion",
+        "description": "Czarne",
+        "size": ["M", "L"],
+        "price": 49,
+        "image": "../../image/wears/Leggins/black2.jpg"
+    }
+    ]
+}

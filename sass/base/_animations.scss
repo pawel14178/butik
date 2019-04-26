@@ -1,0 +1,34 @@
+//Wejście głównego logo
+@keyframes primary_logo-in{
+    0% {
+        transform: translateX(-100px) scale(3);
+        opacity: 0;
+        
+    }
+
+    60%{
+        transform: translateX(20px);
+    }
+
+    100%{
+        transform: translateX(0px) scale(1);
+        opacity: 1;      
+        
+    }
+}
+//Wejście drugiego logo
+@keyframes secondary_logo-in{
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    60%{
+        transform: translateX(-10px);
+    }
+
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

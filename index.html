@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ANgEL - exclusive boutique</title>
+    <link rel="stylesheet" href="styles/styl.css"></head>
+    <link href="https://fonts.googleapis.com/css?family=Niramit:400,400i,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+    <div class="container">
+       <div id="home">
+       </div>
+       <!--gorne menu-->
+       <div class="top">
+           <div class="rwd_top">
+                <p>MENU</p>
+           </div>
+            
+            
+            <a href="#home"><button>Strona główna</button></a>
+            <a href="#products"><button>Produkty</button></a>
+            <a href="#footer"><button>Informacje</button></a>
+           <div id="basket">
+               <h1>0</h1>
+               <img src="/image/baskte.png" alt="Koszyk">
+           </div>
+       </div>
+
+       <!-- Modal content -->
+       <div class="rwd_menu-modal">            
+            <div class="rwd_menu-modal-content">
+                    <h2>Menu</h2>
+                    <h3>Strona główna</h3>
+                    <h3>Produkty</h3>
+                    <h3>Informacje</h3>
+                    <div class="rwd_buttons_social">
+                            <img src="/image/iconsFB.png" alt="Facebook">
+                            <img src="/image/iconsIG.png" alt="Instagram">
+                    </div>
+            </div>          
+        </div>
+
+       <!--   Cały zaslonięty koszyk -->
+       <div id="menu">
+            <div id="menu_btn-close"><img src="../image/menu.png"> </div>                   
+            <h3>Twoje zakupy</h3>
+            
+            <div id="menu_sum">
+                <h1>Suma : <b>0</b> zł</h1>
+            </div>
+            <ol id="myList"></ol>
+            <!--   W tym miejscu są buttony z dodanymi produktami -->
+            <form id="menu_btn">
+                    <input type="email" name="mail" id="add_contact" placeholder="Zostaw e-mail" required>
+                    <input type="submit" id="add_button" name="send" value="Kup" >
+            </form>
+        </div>
+       
+       <div class="wrapper">
+            <!-- logo Angel -->
+            <div class="logo">
+                <img src="/image/LOGO.png" alt="logo" class="logo_img">
+            </div>
+            <!-- Sklep dla ... -->
+            <div class="sentence">
+                <h1>Sklep dla nowoczesnych kobiet.</h1>
+            </div>
+            <!-- Zdjęcie na głównej-->
+            <div class="picture">
+                <img src="/image/Anna.png" alt="Anna" class="picture_img">
+            </div>
+ 
+            <!-- Przyciski -->
+            <div class="buttons">
+                <button>Opinie</button>
+                <button>Kontakt</button>
+                <button>Pomoc</button>
+ 
+                <div class="buttons_social">
+                     <img src="/image/iconsFB.png" alt="Facebook">
+                     <img src="/image/iconsIG.png" alt="Instagram">
+                </div>
+            </div>
+       </div>
+       
+       <!--tło pod menu produktów-->
+       <div id="products">
+           <h1>Nasze produkty</h1>
+            <!--przyciski menu z produktami-->
+            <div id="products_menu">
+                    <button id="akcesoria">Akcesoria</button>
+                    <button id="koszula">Koszule</button></a>
+                    <button id="koszulka">Bluzki</button>
+                    <button id="legginsy">Legginsy</button>
+                    <button id="spodniczka">Spódniczki</button>
+                    <button id="spodnie">Spodnie</button>
+                    <button id="sukienka">Sukienki</button>
+                    <button id="sweter">Swetry</button>
+            </div>
+       </div>       
+       <div id="shopy"></div>
+       <div class="wrapper__section">
+            
+       </div>
+       
+       <a href="#products"><div id="back">W GÓRĘ</div></a>
+       <div id="footer">
+            <div id="footer_info">
+                <h1>ANGEL BUTIK</h1>
+                <h3>ANNA GRELA</h3>
+                <h4>Żory os. Pawlikowskiego 17a/31</h4>
+                <h4>44-410 Żory</h4>
+            </div>
+            <div id="footer_map">
+                <h1>MAPA STRONY</h1>
+                <ul>
+                    <li>Strona główna</li>
+                    <li>Produkty</li>
+                    <li>Opinie</li>
+                    <li>Pomoc</li>
+                    <li>Zwroty</li>
+                </ul>
+            </div>
+            <div class="copy">
+                    Strona zaprojektowana i napisana przez Pawła Jakubiec &copy; Opole 2019
+                </div>
+       </div>
+       <div id="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Some text in the Modal..</p>
+              <div class="modal-content_picture">
+              </div>
+            </div>          
+        </div>
+
+
+        <script src="/scripts/menu.js"></script>
+        <script src="/scripts/shop.js"></script>
+        <script src="/scripts/indexAnimation.js"></script>
+        
+    </div>
+</body>
+</html>

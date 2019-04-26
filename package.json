@@ -1,0 +1,14 @@
+{
+  "name": "angel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles/styl.css -w"
+  },
+  "author": "Pawel",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

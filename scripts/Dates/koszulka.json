@@ -5,70 +5,70 @@
         "description": "Biała",
         "size": ["M", "L"],
         "price": 69,
-        "image": "../../image/wears/Shirts/biala1.jpg"
+        "image": "image/wears/Shirts/biala1.jpg"
     },
     {
         "name": "Blu",
         "description": "Biała",
         "size": ["M", "L"],
         "price": 49,
-        "image": "../../image/wears/Shirts/biala2.jpg"
+        "image": "image/wears/Shirts/biala2.jpg"
     },
     {
         "name": "Ona",
         "description": "Czarna",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Shirts/black.jpg"
+        "image": "image/wears/Shirts/black.jpg"
     },
     {
         "name": "Somaas",
         "description": "Czarna",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Shirts/czarna1.jpg"
+        "image": "image/wears/Shirts/czarna1.jpg"
     },
     {
         "name": "Fertu",
         "description": "Czarna",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Shirts/czarna2.jpg"
+        "image": "image/wears/Shirts/czarna2.jpg"
     },
     {
         "name": "Daqa",
         "description": "Czerwona",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Shirts/czerwona1.jpg"
+        "image": "image/wears/Shirts/czerwona1.jpg"
     },
     {
         "name": "Pity",
         "description": "Czerwona",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Shirts/czerwona2.jpg"
+        "image": "image/wears/Shirts/czerwona2.jpg"
     },
     {
         "name": "Barbie",
         "description": "Różowa",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Shirts/pink1.jpg"
+        "image": "image/wears/Shirts/pink1.jpg"
     },
     {
         "name": "Sztaba",
         "description": "Złota",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Shirts/zlota1.jpg"
+        "image": "image/wears/Shirts/zlota1.jpg"
     },
     {
         "name": "Logic",
         "description": "Złota",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Shirts/zlota2.jpg"
+        "image": "image/wears/Shirts/zlota2.jpg"
     }
     ]
 }

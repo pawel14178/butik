@@ -14,15 +14,24 @@ $(function(){
     //Menu responsywne
     var clicked = false;
     $(".rwd_top").on('click', function(){
-        
-        if (clicked === true){
+        $(".rwd_menu-modal-content a").unbind('click').bind('click', function(){
             $('.rwd_menu-modal').css({
                 '-webkit-transform':'scale(0)'
             });
             clicked = false;
             $(".rwd_top p").text("MENU");
             $("html").removeClass('stop-scrolling');
+        });
+        if (clicked === true){
+            
+                $('.rwd_menu-modal').css({
+                    '-webkit-transform':'scale(0)'
+                });
+                clicked = false;
+                $(".rwd_top p").text("MENU");
+                $("html").removeClass('stop-scrolling');
         }
+        
         else{            
             $('.rwd_menu-modal').css({
                 '-webkit-transform':'scale(1) translateY('+scrollY+"px)"
@@ -30,6 +39,7 @@ $(function(){
             clicked = true;            
             $(".rwd_top p").text("ZAMKNIJ"); 
             $("html").addClass('stop-scrolling');
+            
         }
     });
 

@@ -5,49 +5,49 @@
         "description": "Czarna",
         "size": ["M", "L"],
         "price": 69,
-        "image": "../../image/wears/Skirt/black1.jpg"
+        "image": "image/wears/Skirt/black1.jpg"
     },
     {
         "name": "Blu",
         "description": "dżinsowa",
         "size": ["M", "L"],
         "price": 49,
-        "image": "../../image/wears/Skirt/jeans1.jpg"
+        "image": "image/wears/Skirt/jeans1.jpg"
     },
     {
         "name": "Anika",
         "description": "Brązowa",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Skirt/brown1.jpg"
+        "image": "image/wears/Skirt/brown1.jpg"
     },
     {
         "name": "Flame",
         "description": "Zielona",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Skirt/green1.jpg"
+        "image": "image/wears/Skirt/green1.jpg"
     },
     {
         "name": "Paper",
         "description": "Szara",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Skirt/grey1.jpg"
+        "image": "image/wears/Skirt/grey1.jpg"
     },
     {
         "name": "CIA",
         "description": "Szara",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Skirt/grey2.jpg"
+        "image": "image/wears/Skirt/grey2.jpg"
     },
     {
         "name": "Fon",
         "description": "Czerwona",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Skirt/red1.jpg"
+        "image": "image/wears/Skirt/red1.jpg"
     }
     ]
 }

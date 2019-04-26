@@ -293,6 +293,8 @@ html, body {
   overflow: hidden; }
   .rwd_menu-modal-content {
     height: 100%; }
+    .rwd_menu-modal-content a {
+      color: #535353; }
     .rwd_menu-modal-content h2 {
       text-align: center;
       margin-top: 100px;
@@ -512,10 +514,10 @@ html, body {
   #products_menu {
     top: 200px; }
     #products_menu button {
-      width: 100px;
+      margin: 5px;
+      width: 150px;
       height: 50px;
-      font-size: 20px;
-      margin: 20px; } }
+      font-size: 20px; } }
 
 .wrapper__section {
   display: flex;

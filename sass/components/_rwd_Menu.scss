@@ -26,6 +26,10 @@
 
     &-content{
         height: 100%;
+
+        & a{
+            color: $color-grey;
+        }
         
         & h2{
             text-align: center;

@@ -5,14 +5,14 @@
         "description": "Moro",
         "size": [ "L"],
         "price": 169,
-        "image": "../../image/wears/Trousers/moro1.jpg"
+        "image": "image/wears/Trousers/moro1.jpg"
     },
     {
         "name": "Snow",
         "description": "białe",
         "size": ["XS", "S", "M", "L"],
         "price": 229,
-        "image": "../../image/wears/Trousers/white1.jpg"
+        "image": "image/wears/Trousers/white1.jpg"
     }
     ]
 }

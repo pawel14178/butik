@@ -5,63 +5,63 @@
         "description": "Czarna",
         "size": ["S", "M", "L"],
         "price": 69,
-        "image": "../../image/wears/Sweaters/black1.jpg"
+        "image": "image/wears/Sweaters/black1.jpg"
     },
     {
         "name": "Blu",
         "description": "Czarna",
         "size": ["M", "L", "XXS"],
         "price": 49,
-        "image": "../../image/wears/Sweaters/black2.jpg"
+        "image": "image/wears/Sweaters/black2.jpg"
     },
     {
         "name": "Nose",
         "description": "Różowa",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Sweaters/pink1.jpg"
+        "image": "image/wears/Sweaters/pink1.jpg"
     },
     {
         "name": "Barbie",
         "description": "Biała",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Sweaters/pink2.jpg"
+        "image": "image/wears/Sweaters/pink2.jpg"
     },
     {
         "name": "Lemon",
         "description": "Różowa",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Sweaters/pink3.jpg"
+        "image": "image/wears/Sweaters/pink3.jpg"
     },
     {
         "name": "Britney",
         "description": "Czerwona",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Sweaters/red1.jpg"
+        "image": "image/wears/Sweaters/red1.jpg"
     },
     {
         "name": "Surimi",
         "description": "Biała",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Sweaters/white1.jpg"
+        "image": "image/wears/Sweaters/white1.jpg"
     },
     {
         "name": "Mini",
         "description": "Biała",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Sweaters/white2.jpg"
+        "image": "image/wears/Sweaters/white2.jpg"
     },
     {
         "name": "Ala",
         "description": "Biała",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/Sweaters/white3.jpg"
+        "image": "image/wears/Sweaters/white3.jpg"
     }
     ]
 }

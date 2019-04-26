@@ -145,6 +145,8 @@
     height: 50px;
     color: $color-grey;
     top: 30px;
+    text-decoration: none;
+    
 }
 
 
@@ -199,6 +201,38 @@
   @media only screen and (max-width: 600px){
     #back{        
         color: $color-grey;
-        text-decoration: none;
     }
-  }
+
+    .modal-content {
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+        background-color: #fefefea1;
+    
+        &_picture{
+            position: relative;
+            margin: 5px 2px 5px;
+            width: 75%;
+            height: 600px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        & p{
+            padding-right: 10px;
+            text-align: right;
+        }
+    }
+
+    .close{
+        position: absolute;
+        color: black;
+        float: left;
+        z-index: 100;
+    }
+}

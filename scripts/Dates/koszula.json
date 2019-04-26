@@ -5,21 +5,21 @@
         "description": "Czarna",
         "size": ["M", "L"],
         "price": 69,
-        "image": "../../image/wears/bigShirts/black1.jpg"
+        "image": "image/wears/bigShirts/black1.jpg"
     },
     {
         "name": "Blu",
         "description": "dżinsowa",
         "size": ["M", "L"],
         "price": 49,
-        "image": "../../image/wears/bigShirts/jeans1.jpg"
+        "image": "image/wears/bigShirts/jeans1.jpg"
     },
     {
         "name": "Anika",
         "description": "Biała",
         "size": ["XXS", "XS", "S"],
         "price": 100,
-        "image": "../../image/wears/bigShirts/white1.jpg"
+        "image": "image/wears/bigShirts/white1.jpg"
     }
     ]
 }

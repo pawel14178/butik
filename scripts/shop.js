@@ -18,7 +18,7 @@ $(function(){
         };
         function loadProduct(){
             //wczytaj odpowiedniego JSONa
-            $.getJSON("../scripts/Dates/"+ loc +".json")
+            $.getJSON("scripts/Dates/"+ loc +".json")
             .done (function(data){
                 times = data;
                 var msg = [];

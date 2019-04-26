@@ -7,18 +7,18 @@ $(function(){
         var loc = this.id;
         $('.wrapper__section').html('');
         function loadScript(){
-            $.getScript('/scripts/basket.js')
+            $.getScript('scripts/basket.js')
                 .fail(function(){
                     alert("Nie udało się załadować skryptu");
                 });
-            $.getScript('/script.js')
+            $.getScript('script.js')
                 .fail(function(){
                     alert("Nie udało się załadować skryptu");
                 })
         };
         function loadProduct(){
             //wczytaj odpowiedniego JSONa
-            $.getJSON("../../scripts/Dates/"+ loc +".json")
+            $.getJSON("../scripts/Dates/"+ loc +".json")
             .done (function(data){
                 times = data;
                 var msg = [];

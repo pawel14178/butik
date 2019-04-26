@@ -50,7 +50,7 @@
 }
 
 .copy{
-    height: 50px;
+    height: 100px;
     width: 100%;
     text-align: center;
     background-color: black;
@@ -62,4 +62,36 @@
     position: absolute;
     bottom:0px;
     line-height: 50px;
+}
+
+
+@media only screen and (max-width: 600px){
+    #footer_info{
+        margin: 5px;
+        
+        & h1{
+            font-size: 20px;
+        }
+
+        & h3{
+            font-size: 17px;
+        }
+
+        & h4{
+            font-size: 15px;
+        }
+    }
+
+    #footer_map{
+        margin: 5px 30px;
+        
+        & h1{
+            font-size: 20px;
+        }
+
+        & li{
+            padding-left:15px;
+            font-size: 17px;
+        }
+    }
 }

@@ -2,14 +2,13 @@
     //Ustawienia główne tła i całej strony
     html, body {
         margin:0px;
+        padding: 0;
         font-family: 'Niramit', sans-serif;
         scroll-behavior: smooth;
         transition: .3s ease-in-out;
         background-color: rgb(255, 255, 254);
-        height: 100%;
         box-sizing: border-box;
         width: 100%;
-        height: 100%;
     }
 
     .container{

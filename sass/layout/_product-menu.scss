@@ -27,13 +27,9 @@
             height: 100px;
             color: $color-grey;
             font-size: 3rem;
-            //box-shadow: 10px 10px 10px lighten($color-grey, 40);
             cursor: pointer;
             background: none;
             border: none;
-            //background-color: white;
-            //border: none;
-            //border: 2px solid $color-grey;
             transition: .1s ease;
             position: relative;
 
@@ -61,6 +57,26 @@
 
             &:active{
                 transform: translateY(2px);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #products{
+        
+        & h1{
+            font-size: 20px;
+        }
+
+        &_menu{
+            top: 200px;
+
+            & button{
+                width: 100px;
+                height: 50px;
+                font-size: 20px;
+                margin: 20px;
             }
         }
     }

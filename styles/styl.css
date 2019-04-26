@@ -506,6 +506,17 @@ html, body {
       #products_menu button:active {
         transform: translateY(2px); }
 
+@media only screen and (max-width: 600px) {
+  #products h1 {
+    font-size: 20px; }
+  #products_menu {
+    top: 200px; }
+    #products_menu button {
+      width: 100px;
+      height: 50px;
+      font-size: 20px;
+      margin: 20px; } }
+
 .wrapper__section {
   display: flex;
   width: 100%;

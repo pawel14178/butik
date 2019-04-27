@@ -24,25 +24,32 @@ $(function(){
                 var msg = [];
                 for (let x = 0; x < times[loc].length; x++){
                     
-                    msg[x] = "<div class=\"wrapper__section-picture\">" +
-                        "<img src=" + times[loc][x].image +" class=\"product-image\" >"+ 
+                msg[x]="<div class=\"wrapper__section-picture\">" +
+                                "<img src=" + times[loc][x].image +" class=\"product-image\" >"+ 
                             "<div class=\"wrapper__section-info\">" +
                                 "<p class=\"description\">"+times[loc][x].description + " "+loc+" " + times[loc][x].name + " <b> "+times[loc][x].price+"</b> zł </p>" +
                                 "<h2>Dostępna w rozmiarach: </h2>"+
                                     "<div class=\"wrapper__section-size\">"; 
                     
                             
-                    for (let i = 0; i < times[loc][x].size.length ; i++)
-                    {
+                                for (let i = 0; i < times[loc][x].size.length ; i++)
+                                {
                         
-                        msg[x] +=           "<button>"+ times[loc][x].size[i] +"</button>"
-                    }
+                                    msg[x] +="<button>"+ times[loc][x].size[i] +"</button>"
+                                }
                                
-                    msg[x]+=           "</div>" +
+                    msg[x]+=        "</div>" +
                                 "<div class=\"wrapper__section-add_btn\">" +
                                     "<button>Dodaj do koszyka</button>" +
                                 "</div> "+
-                                "</div>";
+                            "</div>" +
+                            "<div class='extra_image'>";
+                            for (let i = 0; i < times[loc][x].extra.length ; i++)
+                            {                                    
+                                msg[x] +="<img src=" + times[loc][x].extra[i] +" class=\"extra_image-product\" >";
+                            }
+                    msg[x]+="</div>" +
+                        "</div>";
                 }
 
                 //pokaż wszystkie elementy JSON

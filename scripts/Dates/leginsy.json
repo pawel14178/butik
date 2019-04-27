@@ -1,0 +1,29 @@
+{
+    "leginsy": [
+    {
+        "name": "Tiger",
+        "description": "Czarne",
+        "size": ["M", "L"],
+        "price": 69,
+        "image": "image/wears/Leggins/black1.jpg",
+        "extra": [
+            "image/wears/Leggins/black1.jpg",
+            "image/wears/Leggins/black2.jpg",
+            "image/wears/Leggins/black1.jpg",
+            "image/wears/Leggins/black1.jpg",
+            "image/wears/Leggins/black1.jpg"
+        ]
+    },
+    {
+        "name": "Lion",
+        "description": "Czarne",
+        "size": ["M", "L"],
+        "price": 49,
+        "image": "image/wears/Leggins/black2.jpg",
+        "extra": [
+            "image/wears/Leggins/black1.jpg",
+            "image/wears/Leggins/black2.jpg"
+        ]
+    }
+    ]
+}

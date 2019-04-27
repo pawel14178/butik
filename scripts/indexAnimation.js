@@ -19,9 +19,7 @@ $(function(){
         }
     });
     
-    
-    //tekst stopki
-    $('.footer__section-myself p').text("Nasz sklep powstał dla kobiet które nie mają czasu na wędrówki po centrach handlowych a chcą szybko i pewnie zrobić zakupy.");
+   // $('.footer__section-myself p').text("Nasz sklep powstał dla kobiet które nie mają czasu na wędrówki po centrach handlowych a chcą szybko i pewnie zrobić zakupy.");
 });
 
 

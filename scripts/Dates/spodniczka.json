@@ -45,15 +45,6 @@
         "extra": []
     },
     {
-        "name": "Lace",
-        "description": "Czarna",
-        "size": ["M","S", "XS"],
-        "price": 69,
-        "image": "image/wears/Skirt/diana-jeans1.jpg",
-        "extra": [
-        ]
-    },
-    {
         "name": "Sali",
         "description": "Beżowa",
         "size": ["M","S", "XS"],

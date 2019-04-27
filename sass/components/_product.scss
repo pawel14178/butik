@@ -29,7 +29,8 @@
         position: absolute;
         z-index: 4;
         top: 95%;
-        background-image: linear-gradient(#fff, rgb(212, 212, 212));
+        background-color: white;
+        //background-image: linear-gradient(to top right, #fff, rgb(184, 184, 184), #fff);
         box-shadow: 0px 0px 30px black;
         display: block;
 
@@ -66,7 +67,7 @@
             width: 40px;
             height: 40px;
             background: none;
-            border: 1.5px solid $color-secondary;
+            border: 1.5px solid $color-grey;
             cursor: pointer;
             transition: all .2s;
             border-radius: 5px;
@@ -74,7 +75,7 @@
 
             &:focus{
                 outline: none;                
-                background-color: rgba($color-secondary, 0.548);
+                background-color: rgba(190,190,190, 0.548);
                 box-shadow: 0 2px 10px rgba(0, 0, 0, 0.514);
             }
             
@@ -86,7 +87,7 @@
     
             &:hover{
                 color: black;
-                background-color: $color-secondary;
+                background-color: lighten($color-grey,30);
             }
         }
     }

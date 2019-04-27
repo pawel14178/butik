@@ -516,7 +516,7 @@ html, body {
       #products_menu button:active {
         transform: translateY(2px); }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
   #products h1 {
     font-size: 20px; }
   #products_menu {

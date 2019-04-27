@@ -1,74 +1,80 @@
 ﻿{
     "koszulka": [
     {
-        "name": "Luna",
-        "description": "Biała",
-        "size": ["M", "L"],
-        "price": 69,
-        "image": "image/wears/Shirts/biala1.jpg"
-    },
-    {
-        "name": "Blu",
-        "description": "Biała",
-        "size": ["M", "L"],
+        "name": "Activia",
+        "description": "Beżowa",
+        "size": ["L", "M", "S", "XS"],
         "price": 49,
-        "image": "image/wears/Shirts/biala2.jpg"
+        "image": "image/wears/Shirts/activia-bezowa1.jpg",
+        "extra": [
+            "image/wears/Shirts/activia-bezowa2.jpg",
+            "image/wears/Shirts/activia-bezowa3.jpg",
+            "image/wears/Shirts/activia-bezowa1.jpg"
+        ]
     },
     {
-        "name": "Ona",
+        "name": "Activia",
         "description": "Czarna",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Shirts/black.jpg"
+        "size": ["L", "M", "XS"],
+        "price": 49,
+        "image": "image/wears/Shirts/activia-czarna3.jpg",
+        "extra": [
+            "image/wears/Shirts/activia-czarna1.jpg",
+            "image/wears/Shirts/activia-czarna2.jpg",
+            "image/wears/Shirts/activia-czarna3.jpg"
+        ]
     },
     {
-        "name": "Somaas",
+        "name": "Verla",
         "description": "Czarna",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Shirts/czarna1.jpg"
+        "size": ["L", "M", "XS"],
+        "price": 49,
+        "image": "image/wears/Shirts/verla-czarna1.jpg",
+        "extra": [
+            "image/wears/Shirts/verla-czarna2.jpg",
+            "image/wears/Shirts/verla-czarna3.jpg",
+            "image/wears/Shirts/verla-czarna1.jpg"
+        ]
     },
     {
-        "name": "Fertu",
-        "description": "Czarna",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Shirts/czarna2.jpg"
+        "name": "Adoria",
+        "description": "Biała",
+        "size": ["L", "M", "XS"],
+        "price": 49,
+        "image": "image/wears/Shirts/adoria-biala1.jpg",
+        "extra": [
+        ]
     },
     {
-        "name": "Daqa",
+        "name": "Dropi",
         "description": "Czerwona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Shirts/czerwona1.jpg"
+        "size": ["L", "M", "XS"],
+        "price": 49,
+        "image": "image/wears/Shirts/dropi-czerwona1.jpg",
+        "extra": [
+            "image/wears/Shirts/dropi-czerwona2.jpg",
+            "image/wears/Shirts/dropi-czerwona3.jpg"
+        ]
     },
     {
-        "name": "Pity",
-        "description": "Czerwona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Shirts/czerwona2.jpg"
+        "name": "Dropi",
+        "description": "Żółta",
+        "size": ["L", "M", "XS"],
+        "price": 49,
+        "image": "image/wears/Shirts/dropi-zolta1.jpg",
+        "extra": [
+            "image/wears/Shirts/dropi-zolta2.jpg",
+            "image/wears/Shirts/dropi-zolta3.jpg"
+        ]
     },
     {
-        "name": "Barbie",
-        "description": "Różowa",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Shirts/pink1.jpg"
-    },
-    {
-        "name": "Sztaba",
-        "description": "Złota",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Shirts/zlota1.jpg"
-    },
-    {
-        "name": "Logic",
-        "description": "Złota",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Shirts/zlota2.jpg"
+        "name": "Pili",
+        "description": "Biała",
+        "size": ["L", "M", "XS"],
+        "price": 49,
+        "image": "image/wears/Shirts/pili-biala1.jpg",
+        "extra": [
+        ]
     }
     ]
 }

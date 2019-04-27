@@ -1,28 +1,28 @@
 {
     "leginsy": [
     {
-        "name": "Tiger",
+        "name": "Amadis",
         "description": "Czarne",
-        "size": ["M", "L"],
-        "price": 69,
-        "image": "image/wears/Leggins/black1.jpg",
+        "size": ["M"],
+        "price": 49,
+        "image": "image/wears/Leggins/amadis-zlote1.jpg",
         "extra": [
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black2.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg"
+            "image/wears/Leggins/amadis-zlote2.jpg",
+            "image/wears/Leggins/amadis-zlote3.jpg",
+            "image/wears/Leggins/amadis-zlote4.jpg",
+            "image/wears/Leggins/amadis-zlote5.jpg",
+            "image/wears/Leggins/amadis-zlote1.jpg"
         ]
     },
     {
-        "name": "Lion",
+        "name": "Flamant",
         "description": "Czarne",
-        "size": ["M", "L"],
+        "size": ["M"],
         "price": 49,
-        "image": "image/wears/Leggins/black2.jpg",
+        "image": "image/wears/Leggins/flamant-czarne1.jpg",
         "extra": [
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black2.jpg"
+            "image/wears/Leggins/flamant-czarne2.jpg",
+            "image/wears/Leggins/flamant-czarne1.jpg"
         ]
     }
     ]

@@ -1,0 +1,15 @@
+{
+    "kombinezon": [
+    {
+        "name": "Pelia",
+        "description": "Czarny",
+        "size": ["M", "L"],
+        "price": 79,
+        "image": "image/wears/Uniform/pelia-czarna1.jpg",
+        "extra": [
+            "image/wears/Uniform/pelia-czarna2.jpg",
+            "image/wears/Uniform/pelia-czarna1.jpg"
+        ]
+    }
+    ]
+}

@@ -1,67 +1,49 @@
 {
     "sweter": [
     {
-        "name": "Nadia",
-        "description": "Czarna",
+        "name": "Merve",
+        "description": "Czarny",
         "size": ["S", "M", "L"],
-        "price": 69,
-        "image": "image/wears/Sweaters/black1.jpg"
+        "price": 59,
+        "image": "image/wears/Sweaters/merve-czarna1.jpg",
+        "extra": []
     },
     {
-        "name": "Blu",
-        "description": "Czarna",
-        "size": ["M", "L", "XXS"],
-        "price": 49,
-        "image": "image/wears/Sweaters/black2.jpg"
+        "name": "Wolf",
+        "description": "Różowy",
+        "size": ["S", "M", "L"],
+        "price": 59,
+        "image": "image/wears/Sweaters/wolf-rozowa3.jpg",
+        "extra": [
+            "image/wears/Sweaters/wolf-rozowa1.jpg",
+            "image/wears/Sweaters/wolf-rozowa2.jpg",
+            "image/wears/Sweaters/wolf-rozowa3.jpg"
+        ]
     },
     {
-        "name": "Nose",
-        "description": "Różowa",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Sweaters/pink1.jpg"
+        "name": "Zoe",
+        "description": "Różowy",
+        "size": ["S", "M", "L"],
+        "price": 59,
+        "image": "image/wears/Sweaters/zoe-rozowa1.jpg",
+        "extra": [
+            "image/wears/Sweaters/zoe-rozowa2.jpg",
+            "image/wears/Sweaters/zoe-rozowa3.jpg",
+            "image/wears/Sweaters/zoe-rozowa4.jpg",
+            "image/wears/Sweaters/zoe-rozowa5.jpg",
+            "image/wears/Sweaters/zoe-rozowa1.jpg"
+        ]
     },
     {
-        "name": "Barbie",
-        "description": "Biała",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Sweaters/pink2.jpg"
-    },
-    {
-        "name": "Lemon",
-        "description": "Różowa",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Sweaters/pink3.jpg"
-    },
-    {
-        "name": "Britney",
-        "description": "Czerwona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Sweaters/red1.jpg"
-    },
-    {
-        "name": "Surimi",
-        "description": "Biała",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Sweaters/white1.jpg"
-    },
-    {
-        "name": "Mini",
-        "description": "Biała",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Sweaters/white2.jpg"
-    },
-    {
-        "name": "Ala",
-        "description": "Biała",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Sweaters/white3.jpg"
+        "name": "Lauren",
+        "description": "Beżowy",
+        "size": ["S", "M", "L"],
+        "price": 59,
+        "image": "image/wears/Sweaters/lauren-bezowa1.jpg",
+        "extra": [
+            "image/wears/Sweaters/lauren-bezowa2.jpg",
+            "image/wears/Sweaters/lauren-bezowa1.jpg"
+        ]
     }
     ]
 }

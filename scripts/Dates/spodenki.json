@@ -1,0 +1,13 @@
+{
+    "spodenki": [
+    {
+        "name": "Ollie",
+        "description": "Dżinsowe",
+        "size": ["M", "L"],
+        "price": 59,
+        "image": "image/wears/Shorts/angela-zolta1.jpg",
+        "extra": [
+        ]
+    }
+    ]
+}

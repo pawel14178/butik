@@ -1,53 +1,91 @@
 {
     "spodniczka": [
     {
-        "name": "Kuna",
+        "name": "Carbo",
         "description": "Czarna",
-        "size": ["M", "L"],
+        "size": ["S", "XS"],
         "price": 69,
-        "image": "image/wears/Skirt/black1.jpg"
+        "image": "image/wears/Skirt/carbo-czarna1.jpg",
+        "extra": [
+            "image/wears/Skirt/carbo-czarna2.jpg",
+            "image/wears/Skirt/carbo-czarna3.jpg",
+            "image/wears/Skirt/carbo-czarna4.jpg",
+            "image/wears/Skirt/carbo-czarna1.jpg"
+        ]
     },
     {
-        "name": "Blu",
-        "description": "dżinsowa",
-        "size": ["M", "L"],
-        "price": 49,
-        "image": "image/wears/Skirt/jeans1.jpg"
+        "name": "Diana",
+        "description": "Dżinsowa",
+        "size": ["M","S", "XS"],
+        "price": 69,
+        "image": "image/wears/Skirt/diana-jeans1.jpg",
+        "extra": [
+            "image/wears/Skirt/diana-jeans2.jpg",
+            "image/wears/Skirt/diana-jeans3.jpg",
+            "image/wears/Skirt/diana-jeans1.jpg"
+        ]
     },
     {
-        "name": "Anika",
-        "description": "Brązowa",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Skirt/brown1.jpg"
+        "name": "Santana",
+        "description": "Różowa",
+        "size": ["M", "XS"],
+        "price": 69,
+        "image": "image/wears/Skirt/santana-rozowa1.jpg",
+        "extra": [
+            "image/wears/Skirt/santana-rozowa2.jpg",
+            "image/wears/Skirt/santana-rozowa1.jpg"
+        ]
     },
     {
-        "name": "Flame",
+        "name": "Scorpio",
         "description": "Zielona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Skirt/green1.jpg"
+        "size": ["M", "XS"],
+        "price": 69,
+        "image": "image/wears/Skirt/scorpio-zielona1.jpg",
+        "extra": []
     },
     {
-        "name": "Paper",
+        "name": "Lace",
+        "description": "Czarna",
+        "size": ["M","S", "XS"],
+        "price": 69,
+        "image": "image/wears/Skirt/diana-jeans1.jpg",
+        "extra": [
+        ]
+    },
+    {
+        "name": "Sali",
+        "description": "Beżowa",
+        "size": ["M","S", "XS"],
+        "price": 69,
+        "image": "image/wears/Skirt/sali-bezowa1.jpg",
+        "extra": [
+            "image/wears/Skirt/sali-bezowa2.jpg",
+            "image/wears/Skirt/sali-bezowa3.jpg",
+            "image/wears/Skirt/sali-bezowa4.jpg",
+            "image/wears/Skirt/sali-bezowa5.jpg",
+            "image/wears/Skirt/sali-bezowa6.jpg",
+            "image/wears/Skirt/sali-bezowa7.jpg",
+            "image/wears/Skirt/sali-bezowa1.jpg"
+        ]
+    },
+    {
+        "name": "Tarro",
+        "description": "Dżinsowa",
+        "size": ["M","S", "XS"],
+        "price": 69,
+        "image": "image/wears/Skirt/tarro-jeans1.jpg",
+        "extra": [
+        ]
+    },
+    {
+        "name": "Sona",
         "description": "Szara",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Skirt/grey1.jpg"
-    },
-    {
-        "name": "CIA",
-        "description": "Szara",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Skirt/grey2.jpg"
-    },
-    {
-        "name": "Fon",
-        "description": "Czerwona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Skirt/red1.jpg"
+        "size": ["M","S", "XS"],
+        "price": 69,
+        "image": "image/wears/Skirt/sona-szara1.jpg",
+        "extra": [
+        ]
     }
     ]
 }

@@ -1,0 +1,13 @@
+{
+    "kurtka": [
+    {
+        "name": "Lauren",
+        "description": "Różowa",
+        "size": ["M", "L"],
+        "price": 79,
+        "image": "image/wears/Jacket/lauren-rozowa1.jpg",
+        "extra": [
+        ]
+    }
+    ]
+}

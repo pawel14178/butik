@@ -1,284 +1,232 @@
 ﻿{
     "sukienka": [
     {
-        "name": "Kuna",
-        "description": "Czarna",
+        "name": "Angela",
+        "description": "Żółta",
         "size": ["M", "L"],
-        "price": 69,
-        "image": "image/wears/Dresses/black1.jpg",
+        "price": 79,
+        "image": "image/wears/Dresses/angela-zolta1.jpg",
         "extra": [
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black2.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg"
+            "image/wears/Dresses/angela-zolta2.jpg",
+            "image/wears/Dresses/angela-zolta1.jpg"
         ]
     },
     {
-        "name": "Fon",
-        "description": "Beżowa",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/beige1.jpg",
-        "extra": [
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black2.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg"
-        ]
-    },
-    {
-        "name": "Blu",
+        "name": "Anabelle",
         "description": "Czarna",
-        "size": ["M", "L"],
-        "price": 49,
-        "image": "image/wears/Dresses/black2.jpg",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/annabelle-czarna1.jpg",
         "extra": [
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black2.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg"
+            "image/wears/Dresses/annabelle-czarna2.jpg",
+            "image/wears/Dresses/annabelle-czarna1.jpg"
         ]
     },
     {
-        "name": "Anika",
+        "name": "Baily",
         "description": "Brązowa",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/brown1.jpg",
+        "size": ["M", "L"],
+        "price": 79,
+        "image": "image/wears/Dresses/baily-brazowa1.jpg",
+        "extra": []
+    },
+    {
+        "name": "Baily",
+        "description": "Czerwona",
+        "size": ["M", "L"],
+        "price": 79,
+        "image": "image/wears/Dresses/baily-czerwona1.jpg",
         "extra": [
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black2.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg"
+            "image/wears/Dresses/baily-czerwona2.jpg",
+            "image/wears/Dresses/baily-czerwona3.jpg",
+            "image/wears/Dresses/baily-czerwona1.jpg"
         ]
     },
     {
-        "name": "Symphony",
+        "name": "Corry",
         "description": "Czarna",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/black3.jpg",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/corry-kolor1.jpg",
         "extra": [
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black2.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg"
+            "image/wears/Dresses/corry-kolor2.jpg",
+            "image/wears/Dresses/corry-kolor1.jpg"
         ]
     },
     {
-        "name": "Zyrt",
-        "description": "Kolorowa",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/ciemnakolorowa.jpg",
-        "extra": [
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black2.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg",
-            "image/wears/Leggins/black1.jpg"
-        ]
-    },
-    {
-        "name": "Carbon",
+        "name": "Costanza",
         "description": "Czarna",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/czarna.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/costanza-czarna1.jpg",
+        "extra": []
     },
     {
-        "name": "Lips",
+        "name": "Costanza",
         "description": "Czerwona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/czerwona.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/costanza-czerwona1.jpg",
+        "extra": []
     },
     {
-        "name": "Paper",
-        "description": "Złota",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/gold1.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Nervo",
-        "description": "Złota",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/goldDark.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "CIA",
-        "description": "Zielona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/greenLight.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Crater",
-        "description": "W krate",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/krata1.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Fon",
+        "name": "Danita",
         "description": "Czerwona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/red1.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/danita-szara1.jpg",
+        "extra": []
     },
     {
-        "name": "Lion",
-        "description": "Czerwona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/red2.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Pasta",
-        "description": "Czerwona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/red3.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Lolly",
-        "description": "Różowa",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/rozowa.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Surger",
-        "description": "Szara",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/szara.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Pengi",
-        "description": "zielona",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/zielona.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Wallo",
-        "description": "Złota",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/zlota.jpg",
-        "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
-        ]
-    },
-    {
-        "name": "Dorhan",
+        "name": "Kylie",
         "description": "Biała",
-        "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/Dresses/biala.jpg",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/kylie-biala1.jpg",
         "extra": [
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg",
-            "image/wears/Dresses/czerwona.jpg"
+            "image/wears/Dresses/kylie-biala2.jpg",
+            "image/wears/Dresses/kylie-biala1.jpg"
         ]
+    },
+    {
+        "name": "Kylie",
+        "description": "Czarna",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/kylie-czarna1.jpg",
+        "extra": [
+            "image/wears/Dresses/kylie-czarna2.jpg",
+            "image/wears/Dresses/kylie-czarna3.jpg",
+            "image/wears/Dresses/kylie-czarna4.jpg",
+            "image/wears/Dresses/kylie-czarna1.jpg"
+        ]
+    },
+    {
+        "name": "Magiena",
+        "description": "Żółta",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/magiena-zolta1.jpg",
+        "extra": [
+            "image/wears/Dresses/magiena-zolta2.jpg",
+            "image/wears/Dresses/magiena-zolta1.jpg"
+        ]
+    },
+    {
+        "name": "Malani",
+        "description": "Beżowa",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/malani-bezowa1.jpg",
+        "extra": [
+            "image/wears/Dresses/malani-bezowa2.jpg",
+            "image/wears/Dresses/malani-bezowa3.jpg",
+            "image/wears/Dresses/malani-bezowa1.jpg"
+        ]
+    },
+    {
+        "name": "Malani",
+        "description": "Szara",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/malani-szara1.jpg",
+        "extra": []
+    },
+    {
+        "name": "Mauda",
+        "description": "Szara",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/mauda-szara1.jpg",
+        "extra": [
+            "image/wears/Dresses/mauda-szara2.jpg",
+            "image/wears/Dresses/mauda-szara1.jpg"
+        ]
+    },
+    {
+        "name": "Nastia",
+        "description": "Różowa",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/nastia-rozowa1.jpg",
+        "extra": [
+            "image/wears/Dresses/nastia-rozowa2.jpg",
+            "image/wears/Dresses/nastia-rozowa3.jpg",
+            "image/wears/Dresses/nastia-rozowa1.jpg"
+        ]
+    },
+    {
+        "name": "Penelope",
+        "description": "Kremowa",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/penelope-kremowa1.jpg",
+        "extra": [
+            "image/wears/Dresses/penelope-kremowa2.jpg",
+            "image/wears/Dresses/penelope-kremowa3.jpg",
+            "image/wears/Dresses/penelope-kremowa1.jpg"
+        ]
+    },
+    {
+        "name": "Pinky",
+        "description": "Różowa",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/pinky-rozowa1.jpg",
+        "extra": [
+            "image/wears/Dresses/pinky-rozowa2.jpg",
+            "image/wears/Dresses/pinky-rozowa1.jpg"
+        ]
+    },
+    {
+        "name": "Stacey",
+        "description": "Biała",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/stacey-biala1.jpg",
+        "extra": []
+    },
+    {
+        "name": "Varisa",
+        "description": "Czarna",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/varisa-czarna1.jpg",
+        "extra": [
+            "image/wears/Dresses/varisa-czarna2.jpg",
+            "image/wears/Dresses/varisa-czarna3.jpg",
+            "image/wears/Dresses/varisa-czarna1.jpg"
+        ]
+    },
+    {
+        "name": "Varisa",
+        "description": "Czerwona",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/varisa-czerwona1.jpg",
+        "extra": [
+            "image/wears/Dresses/varisa-czerwona2.jpg",
+            "image/wears/Dresses/varisa-czerwona1.jpg"
+        ]
+    },
+    {
+        "name": "Verda",
+        "description": "Czarna",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/verda-czarna1.jpg",
+        "extra": [
+            "image/wears/Dresses/verda-czarna2.jpg",
+            "image/wears/Dresses/verda-czarna1.jpg"
+        ]
+    },
+    {
+        "name": "Honey",
+        "description": "Biała",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/honey-biala1.jpg",
+        "extra": []
     }
     ]
 }

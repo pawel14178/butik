@@ -1,25 +1,47 @@
 {
     "koszula": [
     {
-        "name": "Luna",
-        "description": "Czarna",
+        "name": "Alva",
+        "description": "Biała",
         "size": ["M", "L"],
-        "price": 69,
-        "image": "image/wears/BigShirts/black1.jpg"
+        "price": 59,
+        "image": "image/wears/BigShirts/alva-biala1.jpg",
+        "extra": [
+            "image/wears/BigShirts/alva-biala2.jpg",
+            "image/wears/BigShirts/alva-biala1.jpg"
+        ]
     },
     {
-        "name": "Blu",
-        "description": "Dżinsowa",
+        "name": "Farah",
+        "description": "Różowa",
         "size": ["M", "L"],
-        "price": 49,
-        "image": "image/wears/BigShirts/jeans1.jpg"
+        "price": 59,
+        "image": "image/wears/BigShirts/farah-rozowa1.jpg",
+        "extra":[]
     },
     {
-        "name": "Anika",
+        "name": "Fenna",
         "description": "Biała",
         "size": ["XXS", "XS", "S"],
-        "price": 100,
-        "image": "image/wears/BigShirts/white1.jpg"
+        "price": 59,
+        "image": "image/wears/BigShirts/fenna-biala1.jpg",
+        "extra":[]
+    },
+    {
+        "name": "Linda",
+        "description": "Różowa",
+        "size": ["XXS", "XS", "S"],
+        "price": 59,
+        "image": "image/wears/BigShirts/linda-rozowa1.jpg",
+        "extra":[]
+    },
+    {
+        "name": "Lustila",
+        "description": "Różowa",
+        "size": ["XXS", "XS", "S"],
+        "price": 59,
+        "image": "image/wears/BigShirts/lustila-rozowa1.jpg",
+        "extra":[]
     }
     ]
 }

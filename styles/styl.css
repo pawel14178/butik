@@ -536,8 +536,8 @@ html, body {
   z-index: 5; }
   .wrapper__section-picture {
     margin: 80px 10px;
-    width: 420px;
-    height: 550px;
+    width: 320px;
+    height: 400px;
     position: relative;
     cursor: pointer; }
     .wrapper__section-picture img {
@@ -545,20 +545,20 @@ html, body {
       height: 100%; }
   .wrapper__section-info {
     width: 100%;
-    height: 145px;
+    height: 135px;
     position: absolute;
     z-index: 4;
     top: 95%;
     background-image: linear-gradient(#fff, #d4d4d4);
     box-shadow: 0px 0px 30px black;
-    display: block;
-    font-size: 1rem; }
+    display: block; }
     .wrapper__section-info p {
       font-size: 20px;
       text-align: center;
       margin-top: 2px; }
     .wrapper__section-info h2 {
-      margin: 0 5px; }
+      margin: 0 5px;
+      font-size: 12px; }
   .wrapper__section-size {
     position: absolute;
     display: flex;
@@ -567,7 +567,7 @@ html, body {
     width: 60%;
     height: 30%; }
     .wrapper__section-size button {
-      margin-left: 10px;
+      margin: 5px;
       position: relative;
       top: 0;
       left: 0;
@@ -592,15 +592,15 @@ html, body {
         background-color: #fce5fd; }
   .wrapper__section-add_btn {
     position: relative;
-    margin-left: 60%;
-    right: -20px; }
+    margin-left: 60%; }
     .wrapper__section-add_btn button {
       height: 40px;
-      margin-bottom: 0px;
       background: none;
       border: 1.5px solid #9f49a3;
       border-radius: 5px;
-      color: black; }
+      color: black;
+      right: 20px;
+      margin: 5px; }
       .wrapper__section-add_btn button:hover {
         background-color: #9f49a3;
         cursor: pointer; }

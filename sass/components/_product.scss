@@ -29,7 +29,7 @@
         position: absolute;
         z-index: 4;
         top: 75%;
-        background-image: linear-gradient(#fffa, #ffff);
+        background-image: linear-gradient(#fff, $color-grey);
         box-shadow: 0px 0px 30px black;
         display: block; 
         font-size: 1rem;
@@ -70,6 +70,7 @@
             cursor: pointer;
             transition: all .2s;
             border-radius: 5px;
+            color: white;
 
             &:focus{
                 outline: none;                
@@ -84,7 +85,7 @@
             }
     
             &:hover{
-                color: white;
+                color: black;
                 background-color: $color-secondary;
             }
         }
@@ -103,10 +104,10 @@
             background: none;
             border: 1.5px solid $color-primary;
             border-radius: 5px;
+            color: white;
             
             &:hover{
                 background-color: $color-primary;
-                color:white;
                 cursor: pointer;
             }
 
@@ -151,6 +152,9 @@
 }
 
 #back{
+    background-image: -moz-linear-gradient(to bottom, white, rgb(141, 141, 141));
+    background-image: -webkit-linear-gradient(to bottom, white, rgb(141, 141, 141));
+    background-image: -ms-linear-gradient(to bottom, white, rgb(141, 141, 141));
     background-image: linear-gradient(to bottom, white, rgb(141, 141, 141));
     font-weight: bold;
     position: relative;    

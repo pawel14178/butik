@@ -549,7 +549,7 @@ html, body {
     position: absolute;
     z-index: 4;
     top: 75%;
-    background-image: linear-gradient(#fffa, #ffff);
+    background-image: linear-gradient(#fff, #535353);
     box-shadow: 0px 0px 30px black;
     display: block;
     font-size: 1rem; }
@@ -577,7 +577,8 @@ html, body {
       border: 1.5px solid #fce5fd;
       cursor: pointer;
       transition: all .2s;
-      border-radius: 5px; }
+      border-radius: 5px;
+      color: white; }
       .wrapper__section-size button:focus {
         outline: none;
         background-color: rgba(252, 229, 253, 0.548);
@@ -587,7 +588,7 @@ html, body {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.514);
         transform: translateY(1px); }
       .wrapper__section-size button:hover {
-        color: white;
+        color: black;
         background-color: #fce5fd; }
   .wrapper__section-add_btn {
     position: relative;
@@ -598,10 +599,10 @@ html, body {
       margin-bottom: 0px;
       background: none;
       border: 1.5px solid #9f49a3;
-      border-radius: 5px; }
+      border-radius: 5px;
+      color: white; }
       .wrapper__section-add_btn button:hover {
         background-color: #9f49a3;
-        color: white;
         cursor: pointer; }
       .wrapper__section-add_btn button:active {
         box-shadow: 0 5px 10px rgba(159, 73, 163, 0.4);
@@ -632,6 +633,9 @@ html, body {
   z-index: 0; }
 
 #back {
+  background-image: -moz-linear-gradient(to bottom, white, #8d8d8d);
+  background-image: -webkit-linear-gradient(to bottom, white, #8d8d8d);
+  background-image: -ms-linear-gradient(to bottom, white, #8d8d8d);
   background-image: linear-gradient(to bottom, white, #8d8d8d);
   font-weight: bold;
   position: relative;

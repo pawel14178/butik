@@ -742,4 +742,5 @@ html, body {
       text-align: right; }
   .close {
     z-index: 100;
+    color: black;
     transform: translateX(-20px); } }

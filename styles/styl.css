@@ -309,7 +309,7 @@ html, body {
     width: 320px;
     background-size: cover;
     padding: 50px 30px 0px 60px;
-    background-image: url(../../image/paper4.png); }
+    background-image: url(../image/paper4.png); }
     .content_wrapper-opinion h1 {
       margin: 20px 15% 5%;
       font-size: 20px; }

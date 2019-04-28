@@ -3,7 +3,7 @@
     {
         "name": "Pelia",
         "description": "Czarny",
-        "size": ["M", "L"],
+        "size": ["M", "L", "XXL"],
         "price": 79,
         "image": "image/wears/Uniform/pelia-czarna1.jpg",
         "extra": [

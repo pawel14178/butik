@@ -21,14 +21,18 @@ $(function(){
             if (click >= 1){         
                 $('.wrapper__section-size button').removeClass("hot");
                 //Dodanie nazwy do listy bocznej
-                var prod = "<li>"+check + " - " + sizebtn + "<button class=\"rem\">X</button></li>";
+                var prod = "<li>"+check + " - " + sizebtn + "<button class=\"rem\">&times</button></li>";
                 $('#myList').append(prod);
                 sum = sum + price;
                 
                 //Usuwanie z listy
                 $(".rem").unbind('click').bind('click', function(e){
-                    var newPrice = ($(this).siblings().html());
-                    $(this).parent().remove();
+                    var newPrice = ($(this).siblings().html());       
+                    $(this).parent().css({
+                        "-webkit-transform":"translateX(-300px)",
+                        "opacity":"0"
+                    }); 
+                    $(this).parent().delay(400).queue(function(){$(this).remove()});
                     sum = sum - newPrice;
                     $("#menu_sum b").text(sum); 
                     $("#basket h1").text(--click);

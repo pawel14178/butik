@@ -219,14 +219,6 @@
             "image/wears/Dresses/verda-czarna2.jpg",
             "image/wears/Dresses/verda-czarna1.jpg"
         ]
-    },
-    {
-        "name": "Honey",
-        "description": "Biała",
-        "size": ["M","S", "XS"],
-        "price": 79,
-        "image": "image/wears/Dresses/honey-biala1.jpg",
-        "extra": []
     }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "spodniczka": [
+    "spodnica": [
     {
         "name": "Carbo",
         "description": "Czarna",
@@ -77,6 +77,14 @@
         "image": "image/wears/Skirt/sona-szara1.jpg",
         "extra": [
         ]
+    },
+    {
+        "name": "Honey",
+        "description": "Biała",
+        "size": ["M","S", "XS"],
+        "price": 79,
+        "image": "image/wears/Dresses/honey-biala1.jpg",
+        "extra": []
     }
     ]
 }

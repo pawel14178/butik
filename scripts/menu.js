@@ -2,12 +2,28 @@ $(function(){
     
     //Duże sklep
     $("#basket").on('click',function(){  
-        $(".container").css({"transform":"translateX(-300px)", "transition":".4s"});
+        $(".container").css({"-webkit-transform":"translateX(-300px)", "transition":".4s"});
         $("html").addClass('stop-scrolling');
         $("#menu").css("transform","translateY("+scrollY+"px)");
+        $('#menu_ready').on('click', function(){
+            $('#menu_contact').css({
+                "-webkit-transform":"translateX(0)",
+                "transition":".4s",
+                "opacity":"1"
+            });
+            $('#menu_ready').text('Kup');
+        });
+        $('#menu_contact-close').on('click', function(){
+            $('#menu_contact').css({
+                "-webkit-transform":"translateX(300px)",
+                "transition":".4s",
+                "opacity":"0"
+            });
+            $('#menu_ready').text('Gotowe!');
+        });
     });
     $("#menu_btn-close").on('click',function(){          
-        $(".container").css({"transform":"none", "transition":".4s"});
+        $(".container").css({"-webkit-transform":"none", "transition":".4s"});
         $("html").removeClass('stop-scrolling');
     });
 

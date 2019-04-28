@@ -9,8 +9,8 @@
     height: 100%;
     flex-direction: column;
     padding: 5px;
-    background-color: rgba($color-menu, .7);
-    box-sizing: border-box;    
+    background-color: #e4e4e4;
+    box-sizing: border-box;  
     overflow: hidden;
 
     //ikona menu w pasku bocznym
@@ -77,13 +77,53 @@
         }
     }
     //Przycisk Gotowe
-
     & button{
         position: absolute;
         top: 90%;
         height: 50px;
         width: 200px;
         left: 50px;
+    }
+
+    //Pole z formularzami
+    &_contact{
+        position: absolute;
+        top: 120px;
+        transform: translateX(300px);
+        background-color: #e4e4e4;
+        overflow: hidden;
+        opacity: 0;
+        //Twoje dane
+        & h3{
+            text-align: center;
+            margin: 0px;
+        }
+        //ikona menu w pasku bocznym
+        &-close{
+        position: absolute;
+        left:80%;
+        top: 0px;
+
+            img{
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+        }
+
+        & form{
+
+            & label{
+                text-align: center;
+            }
+            & input{
+                left: 10px;
+                height: 25px;
+                width: 85%;
+                margin: 0px;
+                margin-left: 20px;
+            }
+        }
     }
 }
 
@@ -108,4 +148,17 @@
     &:hover{
         transform: scale(1.05);
     }
+}
+
+@media only screen and (max-width: 770px){
+
+    #menu{
+        border: 2px solid $color-grey;
+        border-right: none;
+
+        & ol li button{
+            left: 85%;
+        }
+    }
+
 }

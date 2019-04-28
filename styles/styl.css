@@ -143,7 +143,7 @@ html, body {
   height: 100%;
   flex-direction: column;
   padding: 5px;
-  background-color: rgba(200, 200, 200, 0.7);
+  background-color: #e4e4e4;
   box-sizing: border-box;
   overflow: hidden; }
   #menu_btn-close {
@@ -194,6 +194,32 @@ html, body {
     height: 50px;
     width: 200px;
     left: 50px; }
+  #menu_contact {
+    position: absolute;
+    top: 120px;
+    transform: translateX(300px);
+    background-color: #e4e4e4;
+    overflow: hidden;
+    opacity: 0; }
+    #menu_contact h3 {
+      text-align: center;
+      margin: 0px; }
+    #menu_contact-close {
+      position: absolute;
+      left: 80%;
+      top: 0px; }
+      #menu_contact-close img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer; }
+    #menu_contact form label {
+      text-align: center; }
+    #menu_contact form input {
+      left: 10px;
+      height: 25px;
+      width: 85%;
+      margin: 0px;
+      margin-left: 20px; }
 
 .stop-scrolling {
   height: 100%;
@@ -210,6 +236,13 @@ html, body {
   cursor: pointer; }
   #usun:hover {
     transform: scale(1.05); }
+
+@media only screen and (max-width: 770px) {
+  #menu {
+    border: 2px solid #535353;
+    border-right: none; }
+    #menu ol li button {
+      left: 85%; } }
 
 .rwd_top {
   position: relative;
@@ -389,7 +422,7 @@ html, body {
   bottom: 0px;
   line-height: 50px; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
   #footer_info {
     margin: 5px; }
     #footer_info h1 {

@@ -9,7 +9,7 @@
     height: 100%;
     flex-direction: column;
     padding: 5px;
-    background-color: #e4e4e4;
+    background-color: $color-secondary;
     box-sizing: border-box;  
     overflow: hidden;
 
@@ -90,7 +90,7 @@
         position: absolute;
         top: 120px;
         transform: translateX(300px);
-        background-color: #e4e4e4;
+        background-color: $color-secondary;
         overflow: hidden;
         opacity: 0;
         //Twoje dane

@@ -1,0 +1,137 @@
+.return{
+    position: relative;
+    top: 120px;
+    width: 90%;
+    margin: 0 5%;
+    height: 100%;
+
+    & button{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-transform: uppercase;
+        width: 300;
+        height: 40px;
+        background: white;
+        border: 2px solid $color-grey;
+        color: $color-grey;        
+        box-shadow: 1px 5px 5px lighten($color-grey, 40);
+        cursor: pointer;  
+    }
+
+    & h1{
+        text-align: center;
+        margin: 0;
+    }
+
+    &_info{
+        text-align: center;
+        font-size: 20px;
+        margin: 20px;
+
+        & ul{
+            list-style: none;
+        }
+    }
+    //Modal z formularzem zwrotu
+    &_form{
+        position: absolute;
+        padding: 20px;
+        top: 50px;
+        left: 25%;
+        height: 600px;
+        width: 50%;
+        background-color: $color-secondary;
+        transition: .3s ease-in-out;
+        transform: scale(0);
+
+        & form{
+
+            & label{
+                text-align: center;
+            }
+
+            & textarea{
+                max-width: 95%;
+                left: 10px;
+                height: 30px;
+                width: 95%;
+                margin: 0px;
+                margin-left: 20px;
+            }
+
+            & input{
+                left: 10px;
+                height: 30px;
+                width: 95%;
+                margin: 0px;
+                margin-left: 20px;                
+            }
+
+            & input[type="submit"]{
+                margin: 10px;
+                transform: translateX(35%);
+                text-transform: uppercase;
+                width: 60%;
+                height: 30px;
+                background: white;
+                border: 2px solid $color-grey;
+                color: $color-grey;        
+                box-shadow: 1px 5px 5px lighten($color-grey, 40);
+                cursor: pointer;         
+            }
+        }
+    }
+
+}
+
+#form_btn-close{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+
+    & img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .return{
+        position: relative;
+        top: 100px;
+        width: 90%;
+        margin: 0 5%;
+        height: 100%;
+    }    
+    .return_form{
+        top: 40px;
+        left: 0;
+        margin: 0;
+        padding: 5px;
+        height: 100%;
+        width: 100%;
+
+        & h1{
+            font-size: 20px;
+        }
+
+        & form{
+
+            & input{
+                width: 90%;
+            }
+
+            & textarea{
+                max-width: 90%;
+                width: 90%;
+            }
+        }
+    }
+
+    #form_btn-close{
+        right: 10px;
+        top: 10px;
+    }
+}

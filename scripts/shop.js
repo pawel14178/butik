@@ -34,7 +34,6 @@ $(function(){
                             
                                 for (let i = 0; i < times[loc][x].size.length ; i++)
                                 {
-                        
                                     msg[x] +="<button>"+ times[loc][x].size[i] +"</button>"
                                 }
                                
@@ -64,8 +63,6 @@ $(function(){
                 $('.wrapper__section').html("<h1>Przepraszamy, nie udało się wczytać produktów</h1>")
             });
 
-            
-            
         }
 
         loadProduct();

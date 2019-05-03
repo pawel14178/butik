@@ -39,9 +39,39 @@
             </div>          
         </div>
 
-        <!-- KONTENT  -->Zwroty
+        <!-- KONTENT  -->
+
+        <div class="return">
+                <h1>Zwroty</h1>
+                <div class="return_info">
+                    Zwroty przyjmowane są do <B>14 dni</b> od momentu kupienia produktu.<br />
+                    Nie ponosimy kosztów zwrotu przesyłki. <br />
+                    Zwracany produkt <b>musi</b> posiadać oryginalną metkę.<br />
+                    Zwrotom <u>nie</u> podlegają: 
+                    <ul>
+                        <li>Produkty uszkodzone,</li>
+                        <li>Produkty poplamione,</li>
+                        <li>Produkty niekompletne</li>
+                    </ul>
+                </div>
+                <button id="form_new">Formularz</button>                
+            </div>
+            <div class="return_form">
+                    <h1>Formularz zwrotu</h1>
+                    <div id="form_btn-close"><img src="../image/menu.png"> </div>                   
+
+                    <form>
+                        <label for name>Imię*:</label><input type="text" placeholder="np. Ewa" id="return_form-name" required>
+                        <label for lastname>Nazwisko*:</label><input type="text" placeholder="np. Kowalska" id="return_form-lastname" required>
+                        <label for city>Miasto:</label><input type="text" placeholder="np. Katowice" id="return_form-city">
+                        <label for street>Ulica i nr mieszkania:</label><input type="text" placeholder="np. Cieszyńska 3" id="return_form-street">
+                        <label for adress>Kod pocztowy:</label><input type="text" placeholder="np. 44-100" id="return_form-adress">
+                        <label for text>Krótki opis zwrotu:</label><textarea rows="3" placeholder="np. Koszulka jest za mała"></textarea>
+                        <label for email>E-mail*:</label><input type="email" placeholder="np. Kowalski@gmail.com" id="return_form-email" required>
+                        <input type="submit" value="Wyślij" id="return_form-send">
+                    </form>
+                </div>
        
-       <a href="#products"><div id="back">W GÓRĘ</div></a>
        <div id="footer">
             <div id="footer_info">
                 <h1>ANGEL BUTIK</h1>
@@ -76,6 +106,7 @@
 
 
         <script src="../scripts/menu.js"></script>
+        <script src="../scripts/return.js"></script>
 
         
     </div>

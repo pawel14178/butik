@@ -18,6 +18,16 @@
         color: $color-grey;        
         box-shadow: 1px 5px 5px lighten($color-grey, 40);
         cursor: pointer;
+        transition: .2s ease-in-out;     
+            
+        &:hover{
+            background: $color-grey;
+            color: white;
+        }
+
+        &:active{
+            transform: translateY(2px);
+        }
     }
 
     &_social{
@@ -28,7 +38,16 @@
             width: 40px;
             height: 40px;
             margin: 5px;
-            cursor: pointer;            
+            cursor: pointer;
+            transition: .2s ease-in-out;     
+            
+            &:hover{
+                transform: scale(1.05);
+            }
+
+            &:active{
+                transform: translateY(2px);
+            }
         }
     }
 }

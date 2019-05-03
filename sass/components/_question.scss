@@ -60,6 +60,16 @@
             color: $color-grey;        
             box-shadow: 1px 5px 5px lighten($color-grey, 40);
             cursor: pointer;         
+            transition: .2s ease-in-out;     
+            
+            &:hover{
+                background: $color-grey;
+                color: white;
+            }
+    
+            &:active{
+                box-shadow: 1px 2px 5px $color-grey;
+            }
         }
     }
 }

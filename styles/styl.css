@@ -64,7 +64,13 @@ html, body {
     border: 2px solid #535353;
     color: #535353;
     box-shadow: 1px 5px 5px #b9b9b9;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: .2s ease-in-out; }
+    .return button:hover {
+      background: #535353;
+      color: white; }
+    .return button:focus {
+      box-shadow: 1px 2px 5px #535353; }
   .return h1 {
     text-align: center;
     margin: 0; }
@@ -163,7 +169,13 @@ html, body {
     border: 2px solid #535353;
     color: #535353;
     box-shadow: 1px 5px 5px #b9b9b9;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: .2s ease-in-out; }
+    .buttons button:hover {
+      background: #535353;
+      color: white; }
+    .buttons button:active {
+      transform: translateY(2px); }
   .buttons_social {
     display: flex;
     flex-direction: row; }
@@ -171,7 +183,12 @@ html, body {
       width: 40px;
       height: 40px;
       margin: 5px;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: .2s ease-in-out; }
+      .buttons_social img:hover {
+        transform: scale(1.05); }
+      .buttons_social img:active {
+        transform: translateY(2px); }
 
 @media only screen and (max-width: 600px) {
   .buttons {
@@ -235,11 +252,24 @@ html, body {
   #menu_sum h1 {
     font-size: 20px; }
   #menu button {
+    margin-bottom: 10px;
+    text-transform: uppercase;
     position: absolute;
     top: 90%;
     height: 50px;
     width: 200px;
-    left: 50px; }
+    left: 50px;
+    background: none;
+    border: 2px solid #535353;
+    color: #535353;
+    box-shadow: 1px 5px 5px #b9b9b9;
+    cursor: pointer;
+    transition: .2s ease-in-out; }
+    #menu button:hover {
+      background: #535353;
+      color: white; }
+    #menu button:active {
+      transform: translateY(2px); }
   #menu_contact {
     position: absolute;
     top: 120px;
@@ -389,7 +419,13 @@ html, body {
       border: 2px solid #535353;
       color: #535353;
       box-shadow: 1px 5px 5px #b9b9b9;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: .2s ease-in-out; }
+      .question_own input[type="submit"]:hover {
+        background: #535353;
+        color: white; }
+      .question_own input[type="submit"]:active {
+        box-shadow: 1px 2px 5px #535353; }
 
 @media only screen and (max-width: 600px) {
   .question ul {

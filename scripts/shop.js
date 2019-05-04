@@ -3,7 +3,8 @@ $(function(){
 
     //po kliknieciu produktu w menu
     $('#products_menu').on('click', 'button', function(e){
-        $('.wrapper__section').html('<div class="loader">Wczytywanie produktów...</div>');
+        
+        //$('.wrapper__section').html('<div class="loader">Wczytywanie produktów...</div>');
         e.preventDefault();
         var loc = this.id;
         //$('.wrapper__section').html('');
@@ -54,10 +55,9 @@ $(function(){
 
                 //pokaż wszystkie elementy JSON
                 for (let w = 0; w < msg.length; w++){                   
-                    setTimeout(function() {
-                        $('.wrapper__section').append(msg[w]).hide().fadeIn();
-                        $('.loader').remove();
-                    }, 1000);
+                    
+                        $('.wrapper__section').append(msg[w]).hide().fadeIn(300);
+                    
                 }
                 
             })

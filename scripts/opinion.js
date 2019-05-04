@@ -5,6 +5,7 @@ $(function(){
             //wczytaj odpowiedniego JSONa
             $.getJSON("../scripts/Dates/opinie.json")
             .done (function(data){
+                $('.loader').remove();
                 var msg = [];
                 for (let x = 0; x < data.opinie.length; x++){
                     
@@ -14,12 +15,27 @@ $(function(){
                             "</div>"
                 } 
                 
+                //pusta kartka z plusem
+                $('.content_wrapper').append("<div class='content_wrapper-opinion'> "+
+                                                "<img src='../image/Plus-icon.png' alt='Dodaj' id='addOpn'>"+
+                                            "</div>");
+
                 //pokaż wszystkie elementy JSON
                 for (let w = 0; w < msg.length; w++){
-                    $('.content_wrapper').append(msg[w]).hide().fadeIn(200);
-                
+                    $('.content_wrapper').append(msg[w]).hide().fadeIn(200);                
                 } 
-                
+                $('#addOpn').unbind('click').bind('click', function(){
+                    $('#addOpn').parent().html("<div class=\"content_wrapper-opinion-add\"> "+
+                                                "<label>Twoje imię: </label><input type=\"text\">"+
+                                                "<label>Twoja opinia: </label><textarea type=\"text\"></textarea>" +
+                                                "<input type=\"submit\" value=\"Dodaj\" id='sendOpn'>"+
+                                                "</div>");
+                        
+                        $('#sendOpn').on('click', function(e){
+                            e.preventDefault();
+                            alert('Dziękujemy za opinie ;)');
+                        });
+                    });
             })
             //jeśli sie nie uda wczytac z serwera
             .fail(function(){
@@ -31,5 +47,9 @@ $(function(){
         }
 
         loadProduct();
+        
+        
+        
+        
      });
 });

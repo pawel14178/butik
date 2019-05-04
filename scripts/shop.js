@@ -1,19 +1,20 @@
 $(function(){
     var times;
+
     //po kliknieciu produktu w menu
     $('#products_menu').on('click', 'button', function(e){
+        $('.wrapper__section').html('<div class="loader">Wczytywanie produktów...</div>');
         e.preventDefault();
-        window.location.hash = e.target = '#shopy';
         var loc = this.id;
-        $('.wrapper__section').html('');
+        //$('.wrapper__section').html('');
         function loadScript(){
             $.getScript('scripts/basket.js')
                 .fail(function(){
-                    alert("Nie udało się załadować skryptu");
+                    alert("Nie udało się załadować do końca strony, odśwież stronę.");
                 });
             $.getScript('script.js')
                 .fail(function(){
-                    alert("Nie udało się załadować skryptu");
+                    alert("Nie udało się załadować do końca strony, odśwież stronę.");
                 })
         };
         function loadProduct(){
@@ -52,9 +53,11 @@ $(function(){
                 }
 
                 //pokaż wszystkie elementy JSON
-                for (let w = 0; w < msg.length; w++){
-                    $('.wrapper__section').append(msg[w]).hide().fadeIn(200);
-
+                for (let w = 0; w < msg.length; w++){                   
+                    setTimeout(function() {
+                        $('.wrapper__section').append(msg[w]).hide().fadeIn();
+                        $('.loader').remove();
+                    }, 1000);
                 }
                 
             })

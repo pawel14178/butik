@@ -10,13 +10,15 @@
 
 @keyframes secondary_logo-in {
   0% {
-    transform: translateX(100px);
+    transform: translateX(-400px);
     opacity: 0; }
-  60% {
-    transform: translateX(-10px); }
-  100% {
+  50% {
     transform: translateX(0px);
-    opacity: 1; } }
+    transform: scale(1.5);
+    opacity: 1; }
+  100% {
+    transform: translateX(400px);
+    opacity: 0; } }
 
 html, body {
   margin: 0px;
@@ -463,13 +465,51 @@ html, body {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  top: 100px; }
+  padding: 50px 0px; }
   .content_wrapper-opinion {
-    height: 360px;
-    width: 320px;
+    height: 350px;
+    width: 350px;
     background-size: cover;
     padding: 50px 30px 0px 60px;
-    background-image: url(../image/paper4.png); }
+    background-image: url(../image/paper4.png);
+    position: relative; }
+    .content_wrapper-opinion-add {
+      width: 70%;
+      height: 60%;
+      padding: 50px; }
+      .content_wrapper-opinion-add input {
+        width: 100%; }
+      .content_wrapper-opinion-add textarea {
+        max-width: 100%;
+        max-height: 60%;
+        width: 100%;
+        height: 60%; }
+      .content_wrapper-opinion-add input[type=submit] {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        width: 100%;
+        height: 30px;
+        background: none;
+        border: 2px solid #535353;
+        color: #535353;
+        box-shadow: 1px 5px 5px #b9b9b9;
+        cursor: pointer;
+        transition: .2s ease-in-out; }
+        .content_wrapper-opinion-add input[type=submit]:hover {
+          background: #535353;
+          color: white; }
+        .content_wrapper-opinion-add input[type=submit]:active {
+          transform: translateY(2px); }
+    .content_wrapper-opinion img {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 30%;
+      top: 30%;
+      cursor: pointer;
+      transition: .2s ease-in-out; }
+      .content_wrapper-opinion img:hover {
+        transform: scale(1.1); }
     .content_wrapper-opinion h1 {
       margin: 20px 15% 5%;
       font-size: 20px; }
@@ -478,6 +518,16 @@ html, body {
       font-size: 15px;
       font-style: italic;
       margin-left: 15px; }
+
+.loader {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 200px;
+  animation: secondary_logo-in 2s infinite;
+  overflow: hidden; }
 
 @media only screen and (max-width: 770px) {
   .content_wrapper-opinion {
@@ -605,6 +655,8 @@ html, body {
       list-style: none; }
       #footer_map ul li {
         font-size: 20px; }
+        #footer_map ul li a {
+          color: white; }
 
 .copy {
   height: 100px;

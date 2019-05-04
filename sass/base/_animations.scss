@@ -19,16 +19,18 @@
 //Wejście drugiego logo
 @keyframes secondary_logo-in{
     0% {
-        transform: translateX(100px);
+        transform: translateX(-400px);
         opacity: 0;
     }
 
-    60%{
-        transform: translateX(-10px);
+    50%{
+        transform: translateX(0px);
+        transform: scale(1.5);
+        opacity: 1;
     }
 
     100%{
-        transform: translateX(0px);
-        opacity: 1;
+        transform: translateX(400px);
+        opacity: 0;
     }
 }

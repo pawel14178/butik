@@ -28,8 +28,8 @@ $(function(){
                     $('.content_wrapper').append(msg[w]).hide().fadeIn(200);                
                 } 
                 $('#addOpn').unbind('click').bind('click', function(){
-                    $('#addOpn').parent().html("<form class=\"content_wrapper-opinion-add\"> "+
-                                                "<label>Twoje imię: </label><input type=\"text\" name='name' id='name'>"+
+                    $('#addOpn').parent().html("<form class=\"content_wrapper-opinion-add\" method='POST'> "+
+                                                "<label>Twój podpis: </label><input type=\"text\" name='name' id='name'>"+
                                                 "<label>Twoja opinia: </label><textarea type=\"text\" name='opinion' id='opinion'></textarea>" +
                                                 "<input type=\"submit\" value=\"Dodaj\" id='sendOpn'>"+
                                                 "</form>");
@@ -37,22 +37,27 @@ $(function(){
                         $('.content_wrapper-opinion-add').submit(function(e){
                             e.preventDefault();
                             //$(this).parent().parent().remove();
-                            var name = $("#name").val();
-                            var email = 'angelbutik.wear@gmail.com'
-                            var text = $("#opinion").val();
-                            var dataString = 'name='+ name + '&email=' + email + '&text=' + text;
-
+                            
+                            var opn = {
+                                name: $("#name").val(),
+                                description: $("#opinion").val()
+                            }
+  
                             $.ajax({
-                                type: "POST",
-                                url: "email.php",
-                                data: dataString,
-                                success: function(){                                
-                                    alert('Dziękujemy za opinie ;)');
-                                }
-                            });
-
-                            return false;
+                                'url':'../scripts/Dates/opinie.json',
+                                'method':'POST',
+                                'dataType': 'json',
+                                'processData': false,
+                                'contentType': 'application/json',
+                                'data': opn,
+                                 'success': function(){
+                                     alert('dodano opinie, dziękujemy')
+                                 }
+                                
+                                });
                         });
+
+                        
                     });
             })
             //jeśli sie nie uda wczytac z serwera

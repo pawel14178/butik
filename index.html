@@ -60,19 +60,20 @@
             <div id="menu_contact">
                 <h3>Twoje dane</h3>
                 <div id="menu_contact-close"><img src="image/menu.png"> </div> 
-                <form>
+                <form action="scripts/email.php" method="POST" id="shop_contact">
                     <label>Imię</label>
-                        <input type="text" required>
+                        <input type="text" required name="name" id="name">
                     <label>Nazwisko</label>
-                        <input type="text" required>
+                        <input type="text" required name="lastname" id="lastname">
                     <label>E-mail</label>
-                        <input type="email" required>
+                        <input type="email" required name="email" id="email">
                     <label>Ulica i nr mieszkania</label>
-                        <input type="text" required>
+                        <input type="text" required name="street" id="street">
                     <label>Kod pocztowy</label>
-                        <input type="text" required>
-                    <label>Miejscowosc</label>
-                        <input type="text" required>
+                        <input type="text" required name="post" id="post">
+                    <label>Miejscowość</label>
+                        <input type="text" required name="city" id="city">
+                    <input type="submit">
                 </form>
             </div>
         </div>

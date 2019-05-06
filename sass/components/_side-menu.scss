@@ -136,9 +136,30 @@
             & input{
                 left: 10px;
                 height: 25px;
-                width: 85%;
-                margin: 0px;
-                margin-left: 20px;
+                width: 90%;
+                margin: 0px 5px;
+
+                &[type=submit]{
+                    margin: 10px 50px;
+                    text-transform: uppercase;
+                    height: 50px;
+                    width: 200px;
+                    background: none;
+                    border: 2px solid $color-grey;
+                    color: $color-grey;        
+                    box-shadow: 1px 5px 5px lighten($color-grey, 40);
+                    cursor: pointer;
+                    transition: .2s ease-in-out;     
+                        
+                    &:hover{
+                        background: $color-grey;
+                        color: white;
+                    }
+
+                    &:active{
+                        transform: translateY(2px);
+                    }
+                }
             }
         }
     }

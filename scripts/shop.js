@@ -7,7 +7,7 @@ $(function(){
         //$('.wrapper__section').html('<div class="loader">Wczytywanie produktów...</div>');
         e.preventDefault();
         var loc = this.id;
-        //$('.wrapper__section').html('');
+        $('.wrapper__section').html('');
         function loadScript(){
             $.getScript('scripts/basket.js')
                 .fail(function(){

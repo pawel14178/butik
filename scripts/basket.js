@@ -11,9 +11,9 @@ $(function(){
     //Znalezenie nazwy wybranego produktu 
     $('.wrapper__section-add_btn button').on('click', function(){
         var price = parseInt($('.hot').parent().siblings().children().html());
-        var check = $('.hot').parent().siblings(".description").html();
+        var check = $('.hot').parent().siblings(".description").text();
         
-        if (check == ''){
+        if (check === ''){
             alert("Wybierz produkt");
         }
         else{
@@ -21,7 +21,7 @@ $(function(){
             if (click >= 1){         
                 $('.wrapper__section-size button').removeClass("hot");
                 //Dodanie nazwy do listy bocznej
-                var prod = "<li>"+check + " - " + sizebtn + "<button class=\"rem\">x</button></li>";
+                var prod = "<li>"+check + " - " + sizebtn + " <button class=\"rem\">x</button></li>";
                 $('#myList').append(prod);
                 sum = sum + price;
                 

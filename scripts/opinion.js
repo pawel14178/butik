@@ -1,7 +1,10 @@
-$(function(){    
-    $(window).on('load', function(e){
+
+$(function(){   
+
         
-        function loadProduct(){
+
+    $(window).on('load', function(e){        
+        function loadOpinion(){
             //wczytaj odpowiedniego JSONa
             $.getJSON("../scripts/Dates/opinie.json")
             .done (function(data){
@@ -25,15 +28,30 @@ $(function(){
                     $('.content_wrapper').append(msg[w]).hide().fadeIn(200);                
                 } 
                 $('#addOpn').unbind('click').bind('click', function(){
-                    $('#addOpn').parent().html("<div class=\"content_wrapper-opinion-add\"> "+
-                                                "<label>Twoje imię: </label><input type=\"text\">"+
-                                                "<label>Twoja opinia: </label><textarea type=\"text\"></textarea>" +
+                    $('#addOpn').parent().html("<form class=\"content_wrapper-opinion-add\"> "+
+                                                "<label>Twoje imię: </label><input type=\"text\" name='name' id='name'>"+
+                                                "<label>Twoja opinia: </label><textarea type=\"text\" name='opinion' id='opinion'></textarea>" +
                                                 "<input type=\"submit\" value=\"Dodaj\" id='sendOpn'>"+
-                                                "</div>");
-                        
-                        $('#sendOpn').on('click', function(e){
+                                                "</form>");
+                        //Dodaj opinie
+                        $('.content_wrapper-opinion-add').submit(function(e){
                             e.preventDefault();
-                            alert('Dziękujemy za opinie ;)');
+                            //$(this).parent().parent().remove();
+                            var name = $("#name").val();
+                            var email = 'angelbutik.wear@gmail.com'
+                            var text = $("#opinion").val();
+                            var dataString = 'name='+ name + '&email=' + email + '&text=' + text;
+
+                            $.ajax({
+                                type: "POST",
+                                url: "email.php",
+                                data: dataString,
+                                success: function(){                                
+                                    alert('Dziękujemy za opinie ;)');
+                                }
+                            });
+
+                            return false;
                         });
                     });
             })
@@ -45,11 +63,10 @@ $(function(){
             
             
         }
+        loadOpinion();
 
-        loadProduct();
         
-        
-        
-        
+
+
      });
 });

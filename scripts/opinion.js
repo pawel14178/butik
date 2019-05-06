@@ -51,7 +51,7 @@ $(function(){
                                 'contentType': 'application/json',
                                 'data': opn,
                                  'success': function(){
-                                     alert('dodano opinie, dziękujemy')
+                                     alert('dodano opinie')
                                  }
                                 
                                 });

@@ -45,11 +45,12 @@ $(function(){
   
                             $.ajax({
                                 'url':'../scripts/Dates/opinie.json',
-                                'method':'POST',
+                                'type':'POST',
                                 'dataType': 'json',
                                 'processData': false,
                                 'contentType': 'application/json',
-                                'data': opn,
+                                'data': JSON.stringify(opn),
+                                'crossDomain': true,
                                  'success': function(){
                                      alert('dodano opinie')
                                  }

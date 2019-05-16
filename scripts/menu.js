@@ -16,7 +16,7 @@ $(function(){
         });
 //Przycisk submit
         $('#shop_contact').submit(function(e){
-            
+            alert("Aktualnie jest brak możliwości kupowania produktów, przepraszamy")
             var name = $('#name').val();
             var lastname = $('#lastname').val();
             var email = $('#email').val();
@@ -34,7 +34,6 @@ $(function(){
             else{
                 e.preventDefault();
                 $(this).get(0).reset();
-                alert("Dziękujemy za zakupy");
                 
                 $.ajax({
                     url: "https://formspree.io/anna@angelzory.pl",

@@ -3,7 +3,7 @@ $(function(){
     var btn = $('.product-image');
     var span = $('.close');
     
-    
+
 
     btn.on('click',function(){
         $(".modal-content_extra").html($(this).siblings(".extra_image").html()); 

@@ -1,9 +1,10 @@
 
 $(function(){   
-
+    alert("Aktualnie jest brak możliwości dodawania opinii, przepraszamy")
         
 
-    $(window).on('load', function(e){        
+    $(window).on('load', function(e){  
+          
         function loadOpinion(){
             //wczytaj odpowiedniego JSONa
             $.getJSON("../scripts/Dates/opinie.json")
@@ -28,11 +29,14 @@ $(function(){
                     $('.content_wrapper').append(msg[w]).hide().fadeIn(200);                
                 } 
                 $('#addOpn').unbind('click').bind('click', function(){
-                    $('#addOpn').parent().html("<form class=\"content_wrapper-opinion-add\" method='POST'> "+
+                    $('#addOpn').parent().html("<form class=\"content_wrapper-opinion-add\" method='POST' action='../scripts/email.php'> "+
+                                                
                                                 "<label>Twój podpis: </label><input type=\"text\" name='name' id='name'>"+
-                                                "<label>Twoja opinia: </label><textarea type=\"text\" name='opinion' id='opinion'></textarea>" +
-                                                "<input type=\"submit\" value=\"Dodaj\" id='sendOpn'>"+
-                                                "</form>");
+                                                "<label>Twoja opinia: </label><textarea type=\"text\" name='description' id='opinion'></textarea>" +
+                                                "<input type=\"submit\" name='submit' value=\"Dodaj\" id='sendOpn'>"+
+                                                
+                                                "</form>"
+                                                );
                         //Dodaj opinie
                         $('.content_wrapper-opinion-add').submit(function(e){
                             e.preventDefault();
@@ -44,7 +48,7 @@ $(function(){
                             }
   
                             $.ajax({
-                                'url':'../scripts/Dates/opinie.json',
+                                'url':'../scripts/email.php',
                                 'type':'POST',
                                 'dataType': 'json',
                                 'processData': false,
